@@ -11,8 +11,10 @@
 
 BOT_NAME = 'DouBanMovie'
 
-SPIDER_MODULES = ['DouBanMovie.spiders']
+
 NEWSPIDER_MODULE = 'DouBanMovie.spiders'
+SPIDER_MODULES = ['DouBanMovie.spiders']
+
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -79,6 +81,8 @@ MONGODB_PORT = 27017
 MONGODB_DBNAME = "Douban"
 
 # 存放数据的表名称
+
+
 MONGODB_SHEETNAME = "doubanmovies"
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
